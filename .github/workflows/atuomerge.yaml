@@ -25,6 +25,6 @@ jobs:
         name: automerge
         uses: "lueyoung/automerge-action@v0.15.5"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.PAT }}"
           MERGE_LABELS: ""
           LOG: "TRACE"
