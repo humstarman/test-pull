@@ -17,7 +17,6 @@ on:
     types:
       - completed
   status: {}
-  workflow_dispatch
 jobs:
   automerge:
     runs-on: ubuntu-latest
